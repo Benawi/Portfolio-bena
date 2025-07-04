@@ -5,23 +5,23 @@
 
   <p align="center">
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://benawi.github.io/Portfolio-React-App/">benawi</a>
+    <a href="https://benawi.github.io/Portfolio-bena/">benawi</a>
     <br />
     <br />
-    <a href="https://benawi.github.io/Portfolio-React-App/#aboutme">About Me</a>
+    <a href="https://benawi.github.io/Portfolio-bena/#aboutme">About Me</a>
   </p>
 </p>
 
-![GitHub contributors](https://img.shields.io/github/contributors/benawi/Portfolio-React-App?color=ffcc66&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/benawi/Portfolio-React-App?color=ffcc66&style=for-the-badge)
-[![GitHub forks](https://img.shields.io/github/forks/benawi/Portfolio-React-App?style=for-the-badge)](https://github.com/benawi/star_book/network)
-[![GitHub issues](https://img.shields.io/github/issues/benawi/Portfolio-React-App?color=ffcc66&style=for-the-badge)](https://github.com/benawi/star_book/issues)
-[![GitHub license](https://img.shields.io/github/license/benawi/Portfolio-React-App?style=for-the-badge)](https://github.com/benawi/Portfolio-React-App/blob/master/LICENSE)
+![GitHub contributors](https://img.shields.io/github/contributors/benawi/Portfolio-bena?color=ffcc66&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/benawi/Portfolio-bena?color=ffcc66&style=for-the-badge)
+[![GitHub forks](https://img.shields.io/github/forks/benawi/Portfolio-bena?style=for-the-badge)](https://github.com/benawi/star_book/network)
+[![GitHub issues](https://img.shields.io/github/issues/benawi/Portfolio-bena?color=ffcc66&style=for-the-badge)](https://github.com/benawi/star_book/issues)
+[![GitHub license](https://img.shields.io/github/license/benawi/Portfolio-bena?style=for-the-badge)](https://github.com/benawi/Portfolio-bena/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/benawi?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/benawi)
 [![Node Version](https://img.shields.io/static/v1?label=Node&message=v18.13.0&color=026e00&style=for-the-badge)](https://nodejs.org)
 [![npm Version](https://img.shields.io/static/v1?label=npm&message=8.11.0&color=cb0000&style=for-the-badge)](https://nodejs.org)
 
-[![Site preview](/public/social-image.png)](https://benawi.github.io/Portfolio-React-App/)
+[![Site preview](/public/social-image.png)](https://benawi.github.io/Portfolio-bena/)
 
 ## Table of Contents
 
@@ -84,7 +84,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 2. Clone the forked repo from your account using:
 
    ```bash
-     git clone https://github.com/<your-username>/Portfolio-React-App.git
+     git clone https://github.com/<your-username>/Portfolio-bena.git
    ```
 
 3. Open in editor and edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) file.
@@ -95,7 +95,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 6. Change URL in [package.json](./package.json) file:
 
    ```json
-    "homepage": "https://<your-username>.github.io/Portfolio-React-App"
+    "homepage": "https://<your-username>.github.io/Portfolio-bena"
    ```
 
    Or for deployment at a custom domain, refer to [create-react-app.dev](https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson)
@@ -120,7 +120,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 
    ```https
    
-     https://<your-username>.github.io/Portfolio-React-App
+     https://<your-username>.github.io/Portfolio-bena
    ```
 
 10. To change the thumbnail image:
@@ -145,4 +145,4 @@ This project has been archived. Means that it is no longer actively maintained b
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/benawi/Portfolio-React-App.svg)](https://starchart.cc/benawi/Portfolio-React-App)
+[![Stargazers over time](https://starchart.cc/benawi/Portfolio-bena.svg)](https://starchart.cc/benawi/Portfolio-bena)

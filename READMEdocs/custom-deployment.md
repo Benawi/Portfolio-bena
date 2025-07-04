@@ -4,7 +4,7 @@
 2. Clone the forked repo from your account using:
 
    ```bash
-     git clone https://github.com/<your-username>/Portfolio-React-App.git
+     git clone https://github.com/<your-username>/Portfolio-bena.git
    ```
 
 3. Open in editor and edit [src/editable-stuff/configurations.json](./src/editable-stuff/configurations.json) file.
