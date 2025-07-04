@@ -80,7 +80,7 @@ const projectImg = {
   show: true,
   images: [
     { 
-      img: require("../../src/assets/img/digital wallet.png"), 
+      img: require("../../src/assets/img/digital wallet.jpg"), 
     },
     { 
       img: require("../../src/assets/img/portifolio.png"), 
@@ -146,24 +146,35 @@ const leadership = {
 const skills = {
   show: true,
   heading: "Skills",
-  hardSkills: [
-    { name: "Java", value: 98 },
-    { name: "Spring Boot", value: 95 },
-    { name: "Python", value: 87 },
-    { name: "SQL", value: 95 },
-    { name: "Data Structures", value: 96 },
-    { name: "C/C++", value: 98 },
-    { name: "JavaScript", value: 95 },
-    { name: "React", value: 97 },
-    { name: "Ruby", value: 95 },
-    { name: "Rails", value: 98 },
-    { name: "HTML/CSS", value: 95 },
-    { name: "C#", value: 80 },
-  ],
+hardSkills: [
+  { name: "Core Spring (DI, MVC, REST)", value: 99 },
+  { name: "Spring Boot Ecosystem (Actuator, DevTools)", value: 90 },
+  { name: "Spring Data (JPA, MongoDB, Redis)", value: 95 },
+  { name: "Spring Cloud & Microservices", value: 92 },
+  { name: "Spring Security & OAuth2", value: 90 },
+  { name: "SQL & Relational Databases", value: 95 },
+  { name: "NoSQL (MongoDB, Redis)", value: 88 },
+  { name: "Java (Core + OOP + Concurrency)", value: 97 },
+  { name: "Data Structures & Algorithms", value: 96 },
+  { name: "Testing (JUnit, Mockito, Postman)", value: 93 },
+  { name: "Frontend (HTML, CSS, JavaScript)", value: 95 },
+  { name: "React Ecosystem (React, Hooks, JSX)", value: 97 },
+  { name: "Styling Frameworks (Tailwind CSS, Bootstrap)", value: 87 },
+  { name: "Ruby on Rails", value: 97 },
+  { name: "Python & Flask", value: 90 },
+  { name: "Node.js & Express.js", value: 90 },
+  { name: "DevOps (Docker, Kubernetes, CI/CD)", value: 90 },
+  { name: "Version Control (Git, GitHub)", value: 95 },
+  { name: "Cloud Platforms (AWS, GCP basics)", value: 87 },
+  { name: "Messaging Systems (Apache Kafka)", value: 82 },
+  { name: "GraphQL & API Design", value: 85 },
+  { name: "Linux & Shell Scripting", value: 86 }
+]
+,
   softSkills: [
     { name: "Goal-Oriented", value: 88 },
     { name: "Collaboration", value: 97 },
-    { name: "Positivity", value: 98 },
+    { name: "Positivity", value: 100 },
     { name: "Adaptability", value: 90 },
     { name: "Problem Solving", value: 95 },
     { name: "Empathy", value: 90 },
@@ -177,7 +188,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I am a Full-Stack Software Developer seeking new full-time opportunities to further develop my skills and experience. If you are aware of any open software engineering roles that match my background, have any advice, or would simply like to connect, please feel free to email me at",
+    "I’m a Full-Stack Software Engineer actively seeking new full-time opportunities where I can continue growing and making meaningful contributions. If you are aware of any open software engineering roles that match my background, have any advice, or would simply like to connect, please feel free to email me at",
   email: "habtamualemayehu16@gmail.com ",
   inboxme:"Or Inbox me here",
 };

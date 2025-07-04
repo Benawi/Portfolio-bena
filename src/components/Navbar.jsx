@@ -3,7 +3,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { repos, about, skills,experiences,leadership,getInTouch } from "../editable-stuff/config.js";
+import { repos, about, skills,experiences,leadership } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
 import codeImage from './bena.png';
 const Navigation = React.forwardRef((props, ref) => {
