@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-bena/static/css/main.b47ac8e7.css",
-    "main.js": "/Portfolio-bena/static/js/main.ede70304.js",
+    "main.js": "/Portfolio-bena/static/js/main.77c49dac.js",
     "static/js/787.4b24f717.chunk.js": "/Portfolio-bena/static/js/787.4b24f717.chunk.js",
     "static/media/doctors1.png": "/Portfolio-bena/static/media/doctors1.f7381fc448eeb5aa0e36.png",
     "static/media/digital wallet1.png": "/Portfolio-bena/static/media/digital wallet1.9097ea10430ec0b02835.png",
@@ -17,11 +17,11 @@
     "static/media/Microverse.png": "/Portfolio-bena/static/media/Microverse.64022a3837abc4726419.png",
     "index.html": "/Portfolio-bena/index.html",
     "main.b47ac8e7.css.map": "/Portfolio-bena/static/css/main.b47ac8e7.css.map",
-    "main.ede70304.js.map": "/Portfolio-bena/static/js/main.ede70304.js.map",
+    "main.77c49dac.js.map": "/Portfolio-bena/static/js/main.77c49dac.js.map",
     "787.4b24f717.chunk.js.map": "/Portfolio-bena/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b47ac8e7.css",
-    "static/js/main.ede70304.js"
+    "static/js/main.77c49dac.js"
   ]
 }
