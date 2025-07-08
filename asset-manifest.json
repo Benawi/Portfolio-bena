@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio-bena/static/css/main.b47ac8e7.css",
-    "main.js": "/Portfolio-bena/static/js/main.ede70304.js",
-    "static/js/787.4b24f717.chunk.js": "/Portfolio-bena/static/js/787.4b24f717.chunk.js",
+    "main.css": "/Portfolio-bena/static/css/main.d9e07037.css",
+    "main.js": "/Portfolio-bena/static/js/main.af60829a.js",
+    "static/js/453.1589c307.chunk.js": "/Portfolio-bena/static/js/453.1589c307.chunk.js",
     "static/media/doctors1.png": "/Portfolio-bena/static/media/doctors1.f7381fc448eeb5aa0e36.png",
     "static/media/digital wallet1.png": "/Portfolio-bena/static/media/digital wallet1.9097ea10430ec0b02835.png",
     "static/media/doctors2.png": "/Portfolio-bena/static/media/doctors2.454099b7c5479f4a3c4a.png",
@@ -16,12 +16,12 @@
     "static/media/HabtamuAlemayehu.jpg": "/Portfolio-bena/static/media/HabtamuAlemayehu.53306bccc3dab5c443ae.jpg",
     "static/media/Microverse.png": "/Portfolio-bena/static/media/Microverse.64022a3837abc4726419.png",
     "index.html": "/Portfolio-bena/index.html",
-    "main.b47ac8e7.css.map": "/Portfolio-bena/static/css/main.b47ac8e7.css.map",
-    "main.ede70304.js.map": "/Portfolio-bena/static/js/main.ede70304.js.map",
-    "787.4b24f717.chunk.js.map": "/Portfolio-bena/static/js/787.4b24f717.chunk.js.map"
+    "main.d9e07037.css.map": "/Portfolio-bena/static/css/main.d9e07037.css.map",
+    "main.af60829a.js.map": "/Portfolio-bena/static/js/main.af60829a.js.map",
+    "453.1589c307.chunk.js.map": "/Portfolio-bena/static/js/453.1589c307.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b47ac8e7.css",
-    "static/js/main.ede70304.js"
+    "static/css/main.d9e07037.css",
+    "static/js/main.af60829a.js"
   ]
 }
