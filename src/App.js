@@ -86,7 +86,8 @@ const App = () => {
     <HashRouter>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
-        <Route path="/" exact element={<Home ref={titleRef} />} />
+        <Route path="/" element={<Home ref={titleRef} />} />
+
       </Routes>
       <Footer>
         {getInTouch.show && (
