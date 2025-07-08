@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio-bena/static/css/main.d9e07037.css",
-    "main.js": "/Portfolio-bena/static/js/main.f23ca909.js",
-    "static/js/453.1589c307.chunk.js": "/Portfolio-bena/static/js/453.1589c307.chunk.js",
-    "static/media/doctors1.png": "/Portfolio-bena/static/media/doctors1.f7381fc448eeb5aa0e36.png",
-    "static/media/digital wallet1.png": "/Portfolio-bena/static/media/digital wallet1.9097ea10430ec0b02835.png",
-    "static/media/doctors2.png": "/Portfolio-bena/static/media/doctors2.454099b7c5479f4a3c4a.png",
-    "static/media/doctors.png": "/Portfolio-bena/static/media/doctors.239e8d3735ee592e56dd.png",
-    "static/media/boeing.png": "/Portfolio-bena/static/media/boeing.a0a6d6a8906b6eccbc2d.png",
-    "static/media/portifolio.png": "/Portfolio-bena/static/media/portifolio.1ec0dedbca8986057ea5.png",
-    "static/media/HabtamuAlemayehu1.JPG": "/Portfolio-bena/static/media/HabtamuAlemayehu1.b3030ce810198ff452a5.JPG",
-    "static/media/dell.png": "/Portfolio-bena/static/media/dell.55260b16ee1f515a7b26.png",
-    "static/media/bena.png": "/Portfolio-bena/static/media/bena.67b4d7668de1f4b1e2f3.png",
-    "static/media/HabtamuAlemayehu2.jpg": "/Portfolio-bena/static/media/HabtamuAlemayehu2.94a0348d6859daf0b3f4.jpg",
-    "static/media/HabtamuAlemayehu.jpg": "/Portfolio-bena/static/media/HabtamuAlemayehu.53306bccc3dab5c443ae.jpg",
-    "static/media/Microverse.png": "/Portfolio-bena/static/media/Microverse.64022a3837abc4726419.png",
-    "index.html": "/Portfolio-bena/index.html",
-    "main.d9e07037.css.map": "/Portfolio-bena/static/css/main.d9e07037.css.map",
-    "main.f23ca909.js.map": "/Portfolio-bena/static/js/main.f23ca909.js.map",
-    "453.1589c307.chunk.js.map": "/Portfolio-bena/static/js/453.1589c307.chunk.js.map"
+    "main.css": "./static/css/main.d9e07037.css",
+    "main.js": "./static/js/main.22954b82.js",
+    "static/js/453.1589c307.chunk.js": "./static/js/453.1589c307.chunk.js",
+    "static/media/doctors1.png": "./static/media/doctors1.f7381fc448eeb5aa0e36.png",
+    "static/media/digital wallet1.png": "./static/media/digital wallet1.9097ea10430ec0b02835.png",
+    "static/media/doctors2.png": "./static/media/doctors2.454099b7c5479f4a3c4a.png",
+    "static/media/doctors.png": "./static/media/doctors.239e8d3735ee592e56dd.png",
+    "static/media/boeing.png": "./static/media/boeing.a0a6d6a8906b6eccbc2d.png",
+    "static/media/portifolio.png": "./static/media/portifolio.1ec0dedbca8986057ea5.png",
+    "static/media/HabtamuAlemayehu1.JPG": "./static/media/HabtamuAlemayehu1.b3030ce810198ff452a5.JPG",
+    "static/media/dell.png": "./static/media/dell.55260b16ee1f515a7b26.png",
+    "static/media/bena.png": "./static/media/bena.67b4d7668de1f4b1e2f3.png",
+    "static/media/HabtamuAlemayehu2.jpg": "./static/media/HabtamuAlemayehu2.94a0348d6859daf0b3f4.jpg",
+    "static/media/HabtamuAlemayehu.jpg": "./static/media/HabtamuAlemayehu.53306bccc3dab5c443ae.jpg",
+    "static/media/Microverse.png": "./static/media/Microverse.64022a3837abc4726419.png",
+    "index.html": "./index.html",
+    "main.d9e07037.css.map": "./static/css/main.d9e07037.css.map",
+    "main.22954b82.js.map": "./static/js/main.22954b82.js.map",
+    "453.1589c307.chunk.js.map": "./static/js/453.1589c307.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9e07037.css",
-    "static/js/main.f23ca909.js"
+    "static/js/main.22954b82.js"
   ]
 }
