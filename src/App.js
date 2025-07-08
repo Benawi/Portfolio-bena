@@ -1,6 +1,5 @@
 import React from "react";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
   navBar,
   mainBody,
@@ -17,6 +16,8 @@ import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
+// import { Blog } from "./components/blog/Blog";
+// import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
@@ -82,13 +83,14 @@ const Home = React.forwardRef((props, ref) => {
 const App = () => {
   const titleRef = React.useRef();
 
- return (
-    <HashRouter>
+  return (
+    <BrowserRouter basename={process.env.PUBLIC_URL +"/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
-        <Route path="/" element={<Home ref={titleRef} />} />
-
+        <Route path="/" exact element={<Home ref={titleRef} />} />
       </Routes>
+      {/* {false && <Route path="/blog" exact component={Blog} />}
+      {false && <Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>
         {getInTouch.show && (
           <GetInTouch
@@ -98,11 +100,11 @@ const App = () => {
             inbox={getInTouch.inboxme}
           />
         )}
-        <div>
-          <ConstacForm />
-        </div>
+         <div>
+      <ConstacForm /> 
+       </div>
       </Footer>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
