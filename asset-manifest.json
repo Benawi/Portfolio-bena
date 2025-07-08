@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d9e07037.css",
-    "main.js": "./static/js/main.22954b82.js",
+    "main.js": "./static/js/main.c7f4f397.js",
     "static/js/453.1589c307.chunk.js": "./static/js/453.1589c307.chunk.js",
     "static/media/doctors1.png": "./static/media/doctors1.f7381fc448eeb5aa0e36.png",
     "static/media/digital wallet1.png": "./static/media/digital wallet1.9097ea10430ec0b02835.png",
@@ -17,11 +17,11 @@
     "static/media/Microverse.png": "./static/media/Microverse.64022a3837abc4726419.png",
     "index.html": "./index.html",
     "main.d9e07037.css.map": "./static/css/main.d9e07037.css.map",
-    "main.22954b82.js.map": "./static/js/main.22954b82.js.map",
+    "main.c7f4f397.js.map": "./static/js/main.c7f4f397.js.map",
     "453.1589c307.chunk.js.map": "./static/js/453.1589c307.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9e07037.css",
-    "static/js/main.22954b82.js"
+    "static/js/main.c7f4f397.js"
   ]
 }
