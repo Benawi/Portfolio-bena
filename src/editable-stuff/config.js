@@ -9,7 +9,8 @@ const mainBody = {
   firstName: "Habtamu",
   middleName: "ቤናዊ",
   lastName: "Alemayehu",
-  message: " Software Engineer | Java enthusiastic | Spring Boot | JavaScript | React | Redux | Rails | Tailwind |I love creating new things ⚡ Turning imagination into reality 🚀",
+message: "Software Engineer | Java enthusiastic | Spring Boot | JavaScript | React | Redux | Ruby | Rails | Tailwind | I love creating new things \n⚡Turning imagination into reality 🚀",
+
   icons: [
     {
       image: "fa-github",
@@ -71,7 +72,7 @@ const about = {
 const repos = { 
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "benawi", //i.e."johnDoe12Gh"
+  gitHubUsername: "benawi", 
   reposLength: 4,
   specificRepos: [],
 };
@@ -215,9 +216,71 @@ const experiences = {
   ]
 }
 
+
+ const services = {
+  show: true,
+  heading: "Services I Provide",
+  servicesList: [
+    {
+      title: "Mobile App Development",
+      description: "Android and iOS apps with clean architecture and intuitive UI/UX.",
+      icon: "📱",
+    },
+    {
+      title: "Web App Development",
+      description: "Full-stack web applications with React, Spring Boot, Node.js, and modern stacks.",
+      icon: "🌐",
+    },
+    {
+      title: "Desktop App Development",
+      description: "Cross-platform desktop apps using Electron, JavaFX, or .NET MAUI.",
+      icon: "🖥️",
+    },
+    {
+      title: "API & Backend Services",
+      description: "RESTful API design, GraphQL, and scalable microservices.",
+      icon: "🛠️",
+    },
+  ],
+};
+
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, projectImg };
+ const projectsDone = {
+  show: true,
+  heading: "Projects I Have Completed 🚀",
+  projectsList: [
+    {
+      title: "Guraginga Android Keyboard",
+      description: "Custom Android keyboard for Guraginga language with predictive text and easy typing.",
+      category: "Mobile App",
+      icon: "⌨️",
+    },
+    {
+      title: "Guarantee Management System",
+      description: "End-to-end web platform for managing bank guarantees with audit trails and role-based access.",
+      category: "Web App",
+      icon: "🌐",
+    },
+    {
+      title: "Raffle System",
+      description: "Automated raffle system with dynamic filtering, random winner selection, and PDF generation.",
+      category: "Web App",
+      icon: "🎟️",
+    },
+  ],
+};
+
+ const projectStats = {
+  show: true,
+  totalProjects: 67,
+  mobileApps: 5,
+  webApps: 59,
+  desktopApps: 3,
+};
+
+
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, projectImg,projectStats,projectsDone,services };

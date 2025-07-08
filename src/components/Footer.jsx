@@ -18,7 +18,7 @@ const Footer = (props) => {
             Habtamu Alemayehu
           </span>
         </a>{" "}
-        using <i className="fab fa-react" /> React
+        {/* using <i className="fab fa-react" /> React */}
           <p>
           <small className="text-muted">
           📞 +251 92 647 3055<br></br> 

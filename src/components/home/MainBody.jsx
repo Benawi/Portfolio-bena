@@ -20,11 +20,14 @@ const MainBody = React.forwardRef(
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
-          <Typist>
-            <div className="lead typist">
-              {message}
-            </div>
-          </Typist>
+         <Typist>
+  {message.split('\n').map((line, index) => (
+    <div className="lead typist" key={index}>
+      {line}
+    </div>
+  ))}
+</Typist>
+
           <div className="p-5">
             {icons.map((icon, index) => (
               <a

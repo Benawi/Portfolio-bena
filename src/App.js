@@ -8,7 +8,10 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences
+  experiences,
+  services,
+  projectStats,
+  projectsDone
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -20,9 +23,14 @@ import Skills from "./components/home/Skills";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
-
 import Experience from "./components/home/Experience";
 import ConstacForm from "./components/ContactForm"
+import Services from "./components/home/Services";
+import ProjectsDone from "./components/home/ProjectsDone";
+import ProjectSummary from "./components/home/ProjectSummary";
+
+
+
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
@@ -44,7 +52,7 @@ const Home = React.forwardRef((props, ref) => {
       )}
       {
         experiences.show && (
-          <Experience experiences={experiences}/>
+          <Experience experiences={experiences} />
         )
       }
       {repos.show && (
@@ -55,6 +63,24 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
+
+      {services.show && (
+        <Services
+          heading={services.heading}
+          servicesList={services.servicesList}
+        />
+      )}
+
+      {projectsDone.show && (
+        <ProjectsDone
+          heading={projectsDone.heading}
+          projectsList={projectsDone.projectsList}
+        />
+      )}
+      {projectStats.show && (
+        <ProjectSummary stats={projectStats} />
+      )}
+
       {leadership.show && (
         <Leadership
           heading={leadership.heading}
@@ -70,12 +96,12 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-       {getInTouch.show && (
+      {getInTouch.show && (
         <getInTouch
-          
+
         />
       )}
-      
+
     </>
   );
 });
@@ -84,7 +110,7 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL +"/"}>
+    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />
@@ -100,9 +126,9 @@ const App = () => {
             inbox={getInTouch.inboxme}
           />
         )}
-         <div>
-      <ConstacForm /> 
-       </div>
+        <div>
+          <ConstacForm />
+        </div>
       </Footer>
     </BrowserRouter>
   );
